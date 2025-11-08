@@ -5,23 +5,25 @@
 </head>
 <body>
   <h1>意見回饋表單</h1>
-  <form action="#" method="POST">
-      <label for="name">姓名：</label>
-      <input type="text" id="name" name="name" required>
-      <label for="email">電子郵件：</label>
-      <input type="email" id="email" name="email" required>
+  <form>
+        <label>姓名：</label>
+        <input type="text">
 
-      <label for="description">問題描述：</label>
-      <textarea id="description" name="description" rows="4" required></textarea>
+        <label>電子郵件：</label>
+        <input type="text">
 
-      <label for="category">問題分類：</label>
-      <select id="category" name="category" required>
-          <option value="technical">技術問題</option>
-          <option value="service">服務問題</option>
-          <option value="feedback">一般建議</option>
-      </select>
-      <button type="submit">提交</button>
-      <button type="reset">重設</button>
+        <label>問題描述：</label>
+        <textarea rows="4"></textarea>
+
+        <label>問題分類：</label>
+        <select>
+            <option>技術問題</option>
+            <option>服務問題</option>
+            <option>其他問題</option>
+        </select>
+
+        <button>提交</button>
+        <button>重設</button>
     </form>
 
 </body>
