@@ -8,5 +8,21 @@
   <form action="#" method="POST">
       <label for="name">姓名：</label>
       <input type="text" id="name" name="name" required>
+      <label for="email">電子郵件：</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="description">問題描述：</label>
+      <textarea id="description" name="description" rows="4" required></textarea>
+
+      <label for="category">問題分類：</label>
+      <select id="category" name="category" required>
+          <option value="technical">技術問題</option>
+          <option value="service">服務問題</option>
+          <option value="feedback">一般建議</option>
+      </select>
+      <button type="submit">提交</button>
+      <button type="reset">重設</button>
+    </form>
 
 </body>
+</html>
