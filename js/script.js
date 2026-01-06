@@ -1,4 +1,4 @@
-// 等網頁內容載入完才綁事件
+<!-- 按鈕內容 -->
 document.addEventListener("DOMContentLoaded", function() {
     const btn = document.getElementById("welcomeBtn");
     if(btn){
@@ -7,3 +7,4 @@ document.addEventListener("DOMContentLoaded", function() {
         });
     }
 });
+
