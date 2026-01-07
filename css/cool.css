@@ -27,7 +27,8 @@ h5 {color: #0262fd; }
                   text-decoration: underline;}
 
 /* ------------------------
-   列表美
+   列表美化
 ------------------------- */
 .list-group-item {border-radius: 5px;
+
                   margin-bottom: 5px;}
